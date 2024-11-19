@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    padding: 27px 185px 27px 91px;
+    border-right: 2px solid black;
+}
+
+.links {
+    padding: 40px 38px 40px 38px;
+    border-right: 2px solid black;
+    margin-right: 140px;
+}
+
+.logInContainer {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 29px 62px 29px 60px;
+    margin-right: 112px;
+}
