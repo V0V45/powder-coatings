@@ -2,25 +2,41 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: stretch;
     border-bottom: 2px solid black;
 }
 
-.logo {
-    padding: 27px 185px 27px 91px;
+.logoContainer {
+    /* TODO: padding: 27px 185px 27px 91px; */
+    padding: 27px 185px 27px 24px;
     border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-width: 211px;
 }
 
 .links {
     padding: 40px 38px 40px 38px;
     border-right: 2px solid black;
     margin-right: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .logInContainer {
+    align-self: center;
     border-left: 2px solid black;
     border-right: 2px solid black;
-    padding: 29px 62px 29px 60px;
+    padding: 29px 60px 29px 60px;
     margin-right: 112px;
 }
