@@ -1,22 +1,14 @@
 import classes from "./header.module.css";
-import logo from "../../images/logo.svg";
-import logoHover from "../../images/logo-hover.svg";
 import HeaderLink from "./header-link/header-link";
 import HeaderButton from "./header-button/header-button";
+import HeaderLogo from "./header-logo/header-logo";
 
 export default function Header() {
-    function handleMouseOver(event) {
-        event.target.src = logoHover;
-    }
-
-    function handleMouseOut(event) {
-        event.target.src = logo;
-    }
 
     return (
         <header>
             <div className={classes.logoContainer}>
-                <img src={logo} alt="Primatek" className={classes.logo} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} />
+                <HeaderLogo />
             </div>
             <div className={classes.links}>
                 <HeaderLink link="/" space>Products</HeaderLink>

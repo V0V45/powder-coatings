@@ -13,3 +13,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@font-face {
+  font-family: "Bruno Ace SC";
+  src: url(./fonts/bruno-ace-sc.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans Condensed";
+  font-weight: 300;
+  src: url(./fonts/open-sans-condensed-light.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans Condensed";
+  font-weight: 700;
+  src: url(./fonts/open-sans-condensed-bold.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans Condensed";
+  font-weight: 300;
+  font-style: italic;
+  src: url(./fonts/open-sans-condensed-light-italic.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  src: url(./fonts/open-sans-bold.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  src: url(./fonts/open-sans-regular.ttf);
+}

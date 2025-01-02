@@ -5,7 +5,7 @@
     text-transform: uppercase;
     color: #000;
     text-decoration: none;
-    transition: color 0.2s;
+    transition: color 0.3s;
 }
 
 .link:hover {

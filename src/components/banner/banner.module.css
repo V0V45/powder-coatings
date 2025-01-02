@@ -1,0 +1,22 @@
+.container {
+    /* TODO: margin */
+    margin: 52px 0px 50px 40px;
+    display: grid;
+    grid-template-columns: 843px 409px 303px 24px 229px;
+    grid-template-rows: 154px 154px;
+    grid-template-areas:
+        "title1 . caption . contactUs"
+        "title2 . caption . contactUs";
+    justify-content: center;
+    justify-items: stretch;
+    align-items: center;
+}
+
+.caption {
+    grid-area: caption;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: right;
+    color: #000;
+}

@@ -1,0 +1,23 @@
+.logo {
+    fill: none;
+    transition: fill 0.3s ease-in-out;
+}
+
+.orangeColor {
+    fill: #FC4C02;
+    transition: fill 0.3s ease-in-out;
+}
+
+.white {
+    fill: white;
+}
+
+.anotherOrangeColor {
+    fill: #FF7624;
+    transition: fill 0.3s ease-in-out;
+}
+
+.logo:hover .orangeColor,
+.logo:hover .anotherOrangeColor {
+    fill: black;
+}

@@ -1,0 +1,15 @@
+.h1 {
+    font-family: "Bruno Ace SC";
+    font-weight: 400;
+    font-size: 128px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.title1 {
+    grid-area: title1;
+}
+
+.title2 {
+    grid-area: title2;
+}
