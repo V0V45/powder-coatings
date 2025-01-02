@@ -13,3 +13,7 @@
 .title2 {
     grid-area: title2;
 }
+
+.border {
+    border-bottom: 2px solid #000;
+}

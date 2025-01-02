@@ -1,22 +1,64 @@
 .container {
     /* TODO: margin */
-    margin: 52px 0px 50px 40px;
+    margin-bottom: 50px;
     display: grid;
-    grid-template-columns: 843px 409px 303px 24px 229px;
-    grid-template-rows: 154px 154px;
+    grid-template-columns: 842px 274px 116px 20px 303px 24px 229px;
+    grid-template-rows: 156px 154px;
     grid-template-areas:
-        "title1 . caption . contactUs"
-        "title2 . caption . contactUs";
+        "title1 border11 border12 . caption . contactUs"
+        "title2 border21 . . caption . contactUs";
     justify-content: center;
     justify-items: stretch;
     align-items: center;
 }
 
 .caption {
+    background-color: #fff;
     grid-area: caption;
     font-family: "Open Sans Condensed", sans-serif;
     font-weight: 300;
     font-size: 32px;
     text-align: right;
     color: #000;
+}
+
+.border11 {
+    grid-area: border11;
+    align-self: stretch;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.border12 {
+    grid-area: border12;
+    position: relative;
+    align-self: stretch;
+    border-bottom: 2px solid #000;
+}
+
+.border12::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 100%;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 6px solid #000;
+}
+
+.border21 {
+    grid-area: border21;
+    align-self: stretch;
+    position: relative;
+    border-right: 2px solid #000;
+}
+
+.border21::after {
+    position: absolute;
+    content: '';
+    right: -5px;
+    bottom: -6px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #000;
 }
