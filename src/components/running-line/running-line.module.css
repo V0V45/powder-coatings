@@ -1,0 +1,38 @@
+.runningLine {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 40px;
+    padding: 40px 20px;
+    background-color: #000;
+    max-width: 1646px;
+    max-height: 130px;
+    overflow: hidden;
+}
+
+.showing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    animation-name: runningLine;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes runningLine {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.runningLine:hover .showing {
+    animation-play-state: paused;
+}

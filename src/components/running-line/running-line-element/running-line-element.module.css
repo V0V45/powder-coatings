@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 382px;
+}
+
+.arrow {
+    margin-right: 23px;
+}
+
+.text {
+    white-space: nowrap;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 23px;
+}
