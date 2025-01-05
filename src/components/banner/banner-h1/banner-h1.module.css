@@ -17,3 +17,11 @@
 .border {
     border-bottom: 2px solid #000;
 }
+
+.paddingLeft {
+    padding-left: 40px;
+}
+
+.paddingTop {
+    padding-top: 52px;
+}

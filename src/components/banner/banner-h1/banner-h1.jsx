@@ -1,6 +1,6 @@
 import classes from "./banner-h1.module.css";
 
-export default function BannerH1({children, gridAreaTitleNumber, border}) {
+export default function BannerH1({children, gridAreaTitleNumber, border, paddingLeft, paddingTop}) {
 
     let allClasses = `${classes.h1}`;
     if (gridAreaTitleNumber === 1) {
@@ -11,6 +11,14 @@ export default function BannerH1({children, gridAreaTitleNumber, border}) {
 
     if (border) {
         allClasses += ` ${classes.border}`;
+    }
+
+    if (paddingLeft) {
+        allClasses += ` ${classes.paddingLeft}`;
+    }
+
+    if (paddingTop) {
+        allClasses += ` ${classes.paddingTop}`;
     }
 
     return (
