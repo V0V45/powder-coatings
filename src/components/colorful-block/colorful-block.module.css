@@ -1,0 +1,44 @@
+.colorfulBlock {
+    position: relative;
+}
+
+.block {
+    border-radius: 60px;
+    box-shadow: inset 0 0 70px 0 rgba(0, 0, 0, 0.25);
+    padding: 30px 40px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.img {
+    border-radius: 60px;
+    max-height: 470px;
+    margin-bottom: 10px;
+}
+
+.parrot {
+    position: absolute;
+    top: -50%;
+    right: 50%;
+    transform: translate(83%, -2%);
+    opacity: 1;
+    filter: blur(0);
+    animation: showFromDown 0.5s ease-in-out;
+}
+
+@keyframes showFromDown {
+    from {
+        opacity: 0;
+        transform: translate(83%, 100%);
+        filter: blur(3px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(83%, -2%);
+        filter: blur(0);
+    }
+}
