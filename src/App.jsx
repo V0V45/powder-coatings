@@ -1,13 +1,13 @@
 import Header from './components/header/header';
 import Banner from './components/banner/banner';
-import Parrot from './components/parrot/parrot';
+import ColorfulBlock from './components/colorful-block/colorful-block';
 
 export default function App() {
   return (
     <>
       <Header />
       <Banner />
-      <Parrot />
+      <ColorfulBlock />
     </>
   );
 }
