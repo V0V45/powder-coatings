@@ -1,4 +1,5 @@
 .runningLine {
+    z-index: 3;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
