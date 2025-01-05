@@ -2,8 +2,8 @@
     /* TODO: margin */
     margin-bottom: 50px;
     display: grid;
-    grid-template-columns: 842px 274px 116px 20px 303px 24px 229px;
-    grid-template-rows: 156px 154px;
+    grid-template-columns: 882px 274px 116px 20px 303px 24px 229px;
+    grid-template-rows: 208px 154px;
     grid-template-areas:
         "title1 border11 border12 . caption . contactUs"
         "title2 border21 . . caption . contactUs";
