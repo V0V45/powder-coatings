@@ -11,7 +11,7 @@ export default function Banner() {
             <div className={classes.border12} />
             <BannerH1 gridAreaTitleNumber={2} paddingLeft>Coatings</BannerH1>
             <div className={classes.border21} />
-            <p className={classes.caption}>You have experience in powder coatings and we produce coatings that corresponds your experience</p>
+            <p className={classes.caption}>You have experience<br />in powder coatings and we<br />produce coatings that<br />corresponds your<br />experience</p>
             <ContactUsButton gridAreaName={"contactUs"} />
         </section>
     );
