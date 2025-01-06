@@ -15,11 +15,7 @@
 .caption {
     background-color: #fff;
     grid-area: caption;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-weight: 300;
-    font-size: 32px;
     text-align: right;
-    color: #000;
 }
 
 .border11 {
