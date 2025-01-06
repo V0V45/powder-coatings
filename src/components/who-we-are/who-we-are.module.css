@@ -1,0 +1,91 @@
+.container {
+    display: grid;
+    grid-template-columns: 437px 854px 436px;
+    grid-template-rows: 292px 735px;
+    grid-template-areas:
+        "title caption ourTeam"
+        "industries topProduct clients";
+    justify-content: center;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.cell11 {
+    grid-area: title;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.arrow11 {
+    align-self: flex-end;
+    transform: translateY(-75%);
+}
+
+.cell12 {
+    grid-area: caption;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.text12 {
+    margin-top: 36px;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.cell13 {
+    grid-area: ourTeam;
+    padding-right: 39px;
+    padding-top: 51px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.h3 {
+    margin-bottom: 24px;
+}
+
+.threeImgs {
+    align-self: flex-start;
+    margin-left: 63px;
+    position: relative;
+}
+
+.arrow13 {
+    margin: auto 0;
+    transform: translateY(50%);
+}
+
+.cell21 {
+    grid-area: industries;
+}
+
+.cell22 {
+    grid-area: topProduct;
+}
+
+.cell23 {
+    grid-area: clients;
+}
