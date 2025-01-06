@@ -1,5 +1,6 @@
 .colorfulBlock {
     position: relative;
+    margin-bottom: 200px;
 }
 
 .block {
@@ -12,15 +13,19 @@
     flex-wrap: nowrap;
     justify-content: stretch;
     align-items: center;
+    max-width: 1733px;
+    margin: 0 auto;
 }
 
 .img {
+    pointer-events: none;
     border-radius: 60px;
-    max-height: 470px;
+    max-width: 1648px;
     margin-bottom: 10px;
 }
 
 .parrot {
+    pointer-events: none;
     position: absolute;
     top: -50%;
     right: 50%;
