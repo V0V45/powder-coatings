@@ -43,10 +43,6 @@
 
 .text12 {
     margin-top: 36px;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-weight: 300;
-    font-size: 48px;
-    text-transform: uppercase;
     color: #000;
 }
 
@@ -63,7 +59,7 @@
     align-items: flex-end;
 }
 
-.h3 {
+.h3cell13 {
     margin-bottom: 24px;
 }
 
@@ -80,12 +76,50 @@
 
 .cell21 {
     grid-area: industries;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 136px 10px 166px 28px;
 }
 
 .cell22 {
     grid-area: topProduct;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.catalog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-250%, -175%);
+}
+
+.text22 {
+    margin-top: 100px;
+    align-self: flex-start;
 }
 
 .cell23 {
     grid-area: clients;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 139px 41px 163px 0;
 }
