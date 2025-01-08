@@ -1,4 +1,4 @@
-import ArrowButton from "../../arrow-button";
+import ArrowOrangeButton from "../../arrow-orange-button";
 import classes from "./running-line-element.module.css";
 
 
@@ -6,7 +6,7 @@ export default function RunningLineElement() {
 
     return (
         <div className={classes.container}>
-            <ArrowButton className={classes.arrow} />
+            <ArrowOrangeButton className={classes.arrow} />
             <p className={classes.text}>Color your business!</p>
         </div>
     );
