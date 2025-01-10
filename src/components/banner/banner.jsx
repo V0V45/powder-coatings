@@ -1,6 +1,6 @@
 import classes from "./banner.module.css";
 import BannerH1 from "./banner-h1/banner-h1";
-import ContactUsButton from "../contact-us-button/contact-us-button";
+import ContactUsButton from "../buttons/contact-us-button/contact-us-button";
 import TextCaption from "../text/text-caption";
 
 export default function Banner() {
