@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: 1729px;
+    grid-template-rows: 174px 50px 479px;
+    grid-template-areas: 
+        "h2"
+        "."
+        "searchContainer";
+    justify-content: center;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.h2 {
+    grid-area: h2;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 10px 0 10px 40px;
+}
+
+.searchContainer {
+    grid-area: searchContainer;
+    border-radius: 60px;
+    background-image: url(../../images/smoke-paint.jpg);
+    background-size: cover;
+    padding: 100px 40px;
+}
