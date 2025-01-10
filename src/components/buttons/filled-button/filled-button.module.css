@@ -1,0 +1,24 @@
+.filledButton {
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.orangeBg {
+    background-color: var(--orangeAccent);
+}
+
+.grayBg {
+    background-color: #514e4e;
+}
