@@ -1,6 +1,6 @@
 import classes from "./header.module.css";
 import HeaderLink from "./header-link/header-link";
-import HeaderButton from "./header-button/header-button";
+import ContourButton from "../buttons/contour-button/contour-button";
 import HeaderLogo from "./header-logo/header-logo";
 
 export default function Header() {
@@ -20,7 +20,7 @@ export default function Header() {
             <div className={classes.logInContainer}>
                 <HeaderLink link="/">Log in</HeaderLink>
             </div>
-            <HeaderButton onClick={() => {}}>Sign up</HeaderButton>
+            <ContourButton onClick={() => {}}>Sign up</ContourButton>
         </header>
     );
 }

@@ -1,5 +1,5 @@
 import TextH2 from "../text/text-h2";
-import ArrowOrangeButton from "../arrow-orange-button";
+import ArrowOrangeButton from "../buttons/arrow-orange-button";
 import classes from "./who-we-are.module.css";
 import TextH3 from "../text/text-h3";
 import LittleRoundedImg from "./little-rounded-img";

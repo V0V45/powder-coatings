@@ -1,5 +1,5 @@
 import TextH3 from "../../text/text-h3";
-import ArrowGrayButton from "../../arrow-gray-button";
+import ArrowGrayButton from "../../buttons/arrow-gray-button";
 import classes from "./typical-cell-title-img-arrow.module.css";
 import industriesImg from "../../../images/industries.jpg";
 import clientsImg from "../../../images/clients.jpg";

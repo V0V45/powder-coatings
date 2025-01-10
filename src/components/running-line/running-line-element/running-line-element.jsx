@@ -1,4 +1,4 @@
-import ArrowOrangeButton from "../../arrow-orange-button";
+import ArrowOrangeButton from "../../buttons/arrow-orange-button";
 import classes from "./running-line-element.module.css";
 
 
